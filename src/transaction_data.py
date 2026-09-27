@@ -1,0 +1,17 @@
+TRANSACTIONS = [
+    {"id": "T001", "amount": 12000, "failure_type": "None"},
+    {"id": "T002", "amount": 25000, "failure_type": "Network"},
+    {"id": "T003", "amount": 8000, "failure_type": "None"},
+    {"id": "T004", "amount": 45000, "failure_type": "Timeout"},
+    {"id": "T005", "amount": 13000, "failure_type": "None"},
+    {"id": "T006", "amount": 70000, "failure_type": "Database"},
+    {"id": "T007", "amount": 9000, "failure_type": "None"},
+    {"id": "T008", "amount": 31000, "failure_type": "Network"},
+    {"id": "T009", "amount": 15000, "failure_type": "None"},
+    {"id": "T010", "amount": 50000, "failure_type": "Timeout"},
+    {"id": "T011", "amount": 6000, "failure_type": "None"},
+    {"id": "T012", "amount": 80000, "failure_type": "Database"},
+    {"id": "T013", "amount": 11000, "failure_type": "None"},
+    {"id": "T014", "amount": 22000, "failure_type": "None"},
+    {"id": "T015", "amount": 40000, "failure_type": "Network"},
+]
