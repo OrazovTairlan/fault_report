@@ -1,0 +1,3 @@
+transaction,trigger,committed_before_rollback,restored_to_checkpoint,committed_after_rollback,restored_amount
+T006,Database fault - max retries exhausted,5,CP1,5,103000
+T012,Database fault - max retries exhausted,10,CP2,10,214000

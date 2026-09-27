@@ -1,0 +1,29 @@
+timestamp_step,transaction,attempt,failure_type,action,result
+2026-09-27 22:12:28.628630 (step 1),T001,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628712 (step 2),T002,Initial attempt,Network,Process transaction,Fail
+2026-09-27 22:12:28.628723 (step 3),T002,Retry 1,-,Retry attempt #1,Success
+2026-09-27 22:12:28.628731 (step 4),T003,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628738 (step 5),T004,Initial attempt,Timeout,Process transaction,Fail
+2026-09-27 22:12:28.628743 (step 6),T004,Retry 1,Timeout,Retry attempt #1,Fail
+2026-09-27 22:12:28.628749 (step 7),T004,Retry 2,-,Retry attempt #2,Success
+2026-09-27 22:12:28.628755 (step 8),T005,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628761 (step 9),T006,Initial attempt,Database,Process transaction,Fail
+2026-09-27 22:12:28.628766 (step 10),T006,Retry 1,Database,Retry attempt #1,Fail
+2026-09-27 22:12:28.628775 (step 11),T006,Retry 2,Database,Retry attempt #2,Fail
+2026-09-27 22:12:28.628780 (step 12),T006,Final,Database,Max retries exhausted -> trigger rollback,Rollback
+2026-09-27 22:12:28.628787 (step 13),T007,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628794 (step 14),T008,Initial attempt,Network,Process transaction,Fail
+2026-09-27 22:12:28.628799 (step 15),T008,Retry 1,-,Retry attempt #1,Success
+2026-09-27 22:12:28.628805 (step 16),T009,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628810 (step 17),T010,Initial attempt,Timeout,Process transaction,Fail
+2026-09-27 22:12:28.628815 (step 18),T010,Retry 1,Timeout,Retry attempt #1,Fail
+2026-09-27 22:12:28.628819 (step 19),T010,Retry 2,-,Retry attempt #2,Success
+2026-09-27 22:12:28.628826 (step 20),T011,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628831 (step 21),T012,Initial attempt,Database,Process transaction,Fail
+2026-09-27 22:12:28.628839 (step 22),T012,Retry 1,Database,Retry attempt #1,Fail
+2026-09-27 22:12:28.628844 (step 23),T012,Retry 2,Database,Retry attempt #2,Fail
+2026-09-27 22:12:28.628849 (step 24),T012,Final,Database,Max retries exhausted -> trigger rollback,Rollback
+2026-09-27 22:12:28.628854 (step 25),T013,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628859 (step 26),T014,Initial attempt,-,Process transaction,Success
+2026-09-27 22:12:28.628864 (step 27),T015,Initial attempt,Network,Process transaction,Fail
+2026-09-27 22:12:28.628869 (step 28),T015,Retry 1,-,Retry attempt #1,Success

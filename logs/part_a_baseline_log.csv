@@ -1,0 +1,16 @@
+transaction,amount,failure_type,outcome,note
+T001,12000,None,SUCCESS,Validate -> Process -> Record completed
+T002,25000,Network,CRASH,"T002 failed (Network fault) - no fault tolerance, aborting batch"
+T003,8000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T004,45000,Timeout,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T005,13000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T006,70000,Database,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T007,9000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T008,31000,Network,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T009,15000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T010,50000,Timeout,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T011,6000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T012,80000,Database,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T013,11000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T014,22000,None,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction
+T015,40000,Network,NEVER_ATTEMPTED,Batch already aborted before reaching this transaction

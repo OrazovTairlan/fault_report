@@ -1,0 +1,4 @@
+checkpoint,successful_transactions,total_amount,state_saved,final_checkpoint
+CP1,5,103000,"ids=T001,T002,T003,T004,T005",No
+CP2,10,214000,"ids=T001,T002,T003,T004,T005,T007,T008,T009,T010,T011",No
+CP3,13,287000,"ids=T001,T002,T003,T004,T005,T007,T008,T009,T010,T011,T013,T014,T015",Yes

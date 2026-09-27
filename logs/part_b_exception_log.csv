@@ -1,0 +1,16 @@
+transaction,amount,exception_class,recovery_action,final_status
+T001,12000,-,-,SUCCESS
+T002,25000,NetworkFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T003,8000,-,-,SUCCESS
+T004,45000,TimeoutFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T005,13000,-,-,SUCCESS
+T006,70000,DatabaseFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T007,9000,-,-,SUCCESS
+T008,31000,NetworkFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T009,15000,-,-,SUCCESS
+T010,50000,TimeoutFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T011,6000,-,-,SUCCESS
+T012,80000,DatabaseFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
+T013,11000,-,-,SUCCESS
+T014,22000,-,-,SUCCESS
+T015,40000,NetworkFaultError,"Logged, classified, transaction marked FAILED, processing continued with next transaction",FAILED
